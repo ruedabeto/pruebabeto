@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+:root{
+	--color-hover-menu:#FE8F01;
+	--color-general:#3A3A3A;
+	--color-about:#F5F5F5;
+	--color-columnas:#494949;
+	--color-counter:#010101;
+}
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-color: #3d3d3d;
+	padding: 10px 0;
+}
+#hero h1{
+	font-size: 60px;
+	font-weight: 300;
+}
+#hero p{
+	font-size: 14px;
+	font-weight: 250;
+	letter-spacing: 6px;
+	margin-top: 30px; 
+}
+#about{
+	background-color: var(--color-about);
+	padding: 5% 0;
+	color: #fff;
+}
+#about h3{
+	color: var(--color-general);
+	text-align: center;
+	margin-bottom: 5%;
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+.cuadro-gris{
+	background-color: var(--color-columnas);
+	padding: 30px;
+	text-align: center;
+	}
+#about i{
+	border: solid 3px #fff;
+	border-radius: 100%;
+	padding: 20px;
+	background-color: var(--color-hover-menu);
+	font-size:30px;
+
+}
+
+#counter{
+	background-color: var(--color-counter);
+	color: #fff;
+	text-align: center;
+	padding: 5% 0;
+	}
+#about h5{
+	margin: 25px 0;
+	font-size: 20px;
+}
+#about p{
+	margin: 0 20%;
+}
+
+#counter p{
+	color: var(--color-hover-menu);
+	font-size: 14px;
+}
+#counter h6{
+	font-size:20px;
+	font-weight: 250;
+}
+#counter i{
+	color: #fff;
+	font-size: 40px;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 20px 0;
+	text-align: center;
+}
